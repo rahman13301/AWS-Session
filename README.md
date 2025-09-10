@@ -23,7 +23,7 @@ ssh -i instance.pem ubunutu@<IP_ADDRESS>
 sudo apt update
 ```
 
-**5. Install Gitand check version by using below commands:**
+**5. Install Git and check version by using below commands:**
 ```
 sudo apt install git
 git --version
