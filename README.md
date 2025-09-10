@@ -51,7 +51,10 @@ git clone https://github.com/rahman13301/AWS-Session
 <img width="940" height="232" alt="image" src="https://github.com/user-attachments/assets/ce274ad3-30ce-43a5-a625-2c8d3c7502e2" />
 
 
-**2. Setup the following environment variables - `(.env)` file. This environment variable dependencies is for Stripe payment gateway. You can get Public keyand Secret key after creating demo account of Stripe**
+**2. Setup the following environment variables - `(.env)` file. This environment variable dependencies is for Stripe payment gateway. You can get Public key and Secret key after creating demo account of Stripe payment gateway app**
+
+<img width="1141" height="627" alt="image" src="https://github.com/user-attachments/assets/a0c3eb3f-b4e2-4664-a79a-6d7870168263" />
+
 
 <img width="873" height="134" alt="image" src="https://github.com/user-attachments/assets/f19559e1-ecc4-4d5e-a656-d9c3fb82bd7e" />
 
@@ -75,10 +78,13 @@ npm run start
 <img width="734" height="411" alt="image" src="https://github.com/user-attachments/assets/6e399b28-6ce2-41dd-af9d-01b0c5522534" />
 
 
-> **NOTE** - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port like (3000).
-> Access in browser with <EC2 instance-public ip:3000
+-  **NOTE** - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port like (port 3000 in this project).
+-  Access in browser with <EC2 instance-public ip:3000
 
-<img width="1590" height="546" alt="image" src="https://github.com/user-attachments/assets/86f04472-478b-41b6-9bde-7732df5aebc7" />
+    <img width="1831" height="350" alt="image" src="https://github.com/user-attachments/assets/beb1c69d-b312-4d25-b25f-9f9c2f66b70b" />
+
+
+    <img width="1590" height="546" alt="image" src="https://github.com/user-attachments/assets/86f04472-478b-41b6-9bde-7732df5aebc7" />
 
 
 ### Project is deployed on AWS 🎉
